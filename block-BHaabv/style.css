@@ -1,0 +1,214 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+    background-color: rgb(73, 73, 83);
+    font-family: 'Varela Round', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.container
+{
+    width: 1100px;
+    margin: 00 auto;
+    padding: 30px 00;
+}
+/* ----------------------------------header------------------------------------- */
+.header-div
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 00;
+}
+.h1
+{
+    font-size: 30px;
+    color: white;
+    margin: 10px 00;
+}
+.p1
+{
+    font-size: 20px;
+    color: rgb(5, 8, 48);
+    margin: 10px 00;
+}
+.darkmode-div
+{
+    background: linear-gradient(to right,rgb(28, 37, 153),rgb(58, 160, 58));
+    width: 50px;
+    border-radius: 15px;
+    height: 18px;
+    border: 2px solid rgb(13, 13, 41);
+}
+.header-part-2
+{
+    width: 175px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.darkmode-button
+{
+    width: 14px;
+    height: 14px;
+    background-color: rgb(5, 8, 48);
+    border-radius: 50%;
+    margin: 2px;
+}
+/* ......................main....................... */
+.main-part-1
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-top: 20px;
+}
+.main-part-2
+{
+}
+.box
+{
+    text-align: center;
+    width: 100%;
+    border-radius: 12px;
+    background-color: rgb(14, 9, 31);
+}
+.border
+{
+    background: linear-gradient(blue,blue);
+    height: 210px;
+    width: 22%;
+    border-radius: 15px;
+}
+.follower-details
+{
+    display: flex;
+    flex-direction: column;
+}
+.box-logo
+{
+    margin: 5px 00;
+    padding-top: 20px;
+}
+.box-logo i,.page-view-1 i
+{
+    font-size: 28px;
+    color: rgb(34, 34, 241);
+    vertical-align: middle;
+}
+.logo-a
+{
+    font-size: 18px;
+    color: rgb(14, 14, 148);
+    text-decoration: none;
+    margin-left: 5px;
+}
+.total-count
+{
+font-size: 60px;
+color: white;
+margin-bottom: 15px 00;
+}
+.followers
+{
+font-size: 18px;
+color:grey;
+letter-spacing: 3px;
+margin-bottom: 15px 00;
+}
+.count-update
+{
+    font-size: 18px;
+    color: rgb(8, 139, 52);
+    margin: 30px 00;
+}
+.box-instagram
+{
+    background: linear-gradient(to right,rgb(211, 111, 30),rgb(252, 37, 9));
+}
+.box-youtube
+{
+    background: linear-gradient(to right,rgb(255, 8, 8),rgb(250, 36, 8));
+ }
+ .insta i
+ {
+     color: rgb(248, 66, 20);
+ }
+ .youtube i
+ {
+     color: rgb(250, 8, 8);
+ }
+ .box-new
+ {
+     width: 21%;
+     margin-top: 20px;
+     height: 120px;
+     padding: 15px;
+ }
+ .overview-inside-div
+ {
+     display: flex;
+     justify-content: space-between;
+     flex-wrap: wrap;
+ }
+.p1-new
+{
+    color: rgb(161, 161, 245);
+}
+.count-new
+{
+    font-size: 40px;
+    font-weight: 300;
+}
+.box-inside-part-2, .page-view-1
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 00;
+    align-items: center;
+}
+.count-red
+{
+    color: red;
+}
