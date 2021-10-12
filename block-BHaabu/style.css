@@ -46,12 +46,18 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+.container
+{
+    width: 1300px;
+    margin: 00 auto;
+}
 .backside-image
 {
 background:url("schene-3.jpg") no-repeat;
 background-size: cover;
 text-align: center;
  height: 750px;
+ background-attachment: fixed;
 }
 .heading-div
 {
@@ -66,13 +72,13 @@ text-align: center;
 .div-part-1
 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding: 32px 00;
 }
 .box
 {
     border-radius: 15px;
-    width: 29%;
+    width: 31%;
     height: 200px;
 }
 .box-1
@@ -97,11 +103,9 @@ text-align: center;
 .upper-image
 {
     border-radius: 15px;
-    background:  linear-gradient(rgba(255, 255, 255, 0.2),rgba(255, 255, 255, 0.2)),url("city-image-1.jpg") no-repeat;
+    background:  linear-gradient(rgba(255, 255, 255, 0.2),rgba(248, 12, 79, 0.4)),url("city-image-1.jpg") no-repeat;
     background-size: cover;
     height: 400px;
-    width: 1300px;
-    margin: 00 auto;
 }
 .text-2
 {
